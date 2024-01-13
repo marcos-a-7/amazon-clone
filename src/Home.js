@@ -19,7 +19,13 @@ function Home() {
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg"
           />
-          <Product />
+          <Product
+            id={123456}
+            title="The lean startup"
+            price="19.99"
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg"
+          />
         </div>
 
         <div className="home__row">
